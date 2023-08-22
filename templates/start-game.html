@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %} Let's Play {% endblock %}
+
+{% block content %}
+
+<div class="btn-container">
+    <form action="/">
+        <button class="btn">New Board</button>
+    </form>
+    
+    <form class="btn" action="/play">
+        <button>Start</button>
+    </form>
+</div>
+
+{% endblock %}
